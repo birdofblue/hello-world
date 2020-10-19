@@ -17,6 +17,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: List
-        run: ls
+        run: echo $(ls)
       - name: Node
         run: node ./action.js
