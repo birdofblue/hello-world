@@ -16,5 +16,7 @@ jobs:
     steps:
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: node action.js
+      - name: List
+        run: ls
+      - name: Node
+        run: node ./action.js
