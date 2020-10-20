@@ -22,5 +22,3 @@ jobs:
       - name: List
         run: cat action.js,
              echo Hello, World!
-      - name: Node
-        run: node ./action.js
