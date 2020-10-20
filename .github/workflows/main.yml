@@ -19,6 +19,8 @@ jobs:
     steps:
 
       # Runs a single command using the runners shell
-      - name: List
-        run: cat action.js,
-             echo Hello, World!
+      - name: Print action.js
+        run: cat action.js
+     
+      - name: Debug
+        run: pwd
