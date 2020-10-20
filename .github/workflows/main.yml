@@ -14,12 +14,13 @@ jobs:
     defaults: 
       run:
         shell: bash
-        working-directory: ./.
+        working-directory: .
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
       # Runs a single command using the runners shell
       - name: List
-        run: echo $(ls)
+        run: cat action.js,
+             echo Hello, World!
       - name: Node
         run: node ./action.js
