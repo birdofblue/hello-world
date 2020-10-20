@@ -20,4 +20,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Debug
-        run: ls
+        run: node action.js
